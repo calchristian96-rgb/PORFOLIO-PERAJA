@@ -1,6 +1,6 @@
 # PORTFOLIO PERAJA
 
-A responsive, pastel-themed creative developer portfolio for Christian C. Peraja, built with Vite and vanilla JavaScript. It includes project showcases, a certificate preview, editable learning and achievement sections, a responsive navigation menu, theme persistence, and a motion-aware animated workspace illustration.
+A responsive, graphite-and-navy creative developer portfolio for Christian C. Peraja, built with Vite and vanilla JavaScript. It uses steel-blue and restrained brass accents, with dark and light theme options. It includes project showcases, certificate previews, editable learning and achievement sections, a responsive navigation menu, theme persistence, and a motion-aware animated workspace illustration.
 
 ## Stack
 

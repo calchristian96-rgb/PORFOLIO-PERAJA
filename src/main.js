@@ -1,4 +1,5 @@
 import './style.css';
+import './design.css';
 import './icons.css';
 import { personal, skills, techMarquee, projects, certificates, seminars, achievements, education } from './data.js';
 import phpLogo from 'simple-icons/icons/php.svg?raw';
@@ -71,7 +72,7 @@ $('#app').innerHTML = `
 // Theme preference, reduced motion, and simple pointer-reactive hero depth.
 const themeToggle = $('.theme-toggle');
 const savedTheme = localStorage.getItem('portfolio-theme');
-if (savedTheme === 'dark') document.documentElement.dataset.theme = 'dark';
+document.documentElement.dataset.theme = savedTheme === 'light' ? 'light' : 'dark';
 function updateThemeControl() {
   const dark = document.documentElement.dataset.theme === 'dark';
   themeToggle.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');

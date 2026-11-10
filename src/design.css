@@ -1,0 +1,93 @@
+/* Graphite, navy, steel blue, and restrained brass theme. */
+:root,
+:root[data-theme="dark"] {
+  --bg: #111923;
+  --surface: #192432;
+  --surface-soft: #202d3b;
+  --ink: #e9eef3;
+  --muted: #a7b3c0;
+  --pink: #31465b;
+  --pink-deep: #8eabc6;
+  --yellow: #b99a62;
+  --brown: #d6e0e8;
+  --line: rgba(195, 211, 225, .15);
+  --shadow: 0 22px 70px rgba(0, 0, 0, .3);
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --bg: #f1f4f6;
+  --surface: #ffffff;
+  --surface-soft: #e7edf2;
+  --ink: #1b2938;
+  --muted: #627386;
+  --pink: #d4dfe8;
+  --pink-deep: #426b8d;
+  --yellow: #b99a62;
+  --brown: #253b50;
+  --line: rgba(45, 68, 89, .17);
+  --shadow: 0 22px 70px rgba(36, 58, 78, .1);
+  color-scheme: light;
+}
+
+body { background: var(--bg); color: var(--ink); }
+.site-header { background: color-mix(in srgb, var(--bg) 86%, transparent); }
+.brand-mark { background: var(--pink-deep); color: #f5f7f9; border-radius: 7px; font-style: normal; }
+.brand-dot, .pink-period { color: var(--pink-deep); }
+.button { border-radius: 5px 12px 5px 12px; }
+.button-primary { background: var(--pink-deep); color: #fff; }
+.button-soft { background: var(--surface-soft); color: var(--ink); border-color: var(--line); }
+.intro-band { background: var(--surface-soft); color: var(--ink); transform: none; margin-block: 10px 25px; }
+.skills-section, .cert-section, .achievement-section { background: var(--surface-soft); }
+.skill-card, .project-card, .certificate-card, .timeline-copy, .education-card, .contact-form {
+  border-radius: 6px 14px 6px 14px;
+}
+.skill-symbol { background: var(--surface-soft); color: var(--pink-deep); border: 1px solid var(--line); }
+.build-panel { background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 6px 14px 6px 14px; }
+.build-panel .eyebrow, .build-list i { color: var(--pink-deep); }
+.build-list span { background: var(--surface-soft); border-color: var(--line); }
+.project-media, .project-placeholder {
+  background: radial-gradient(circle at 50% 40%, color-mix(in srgb, var(--pink-deep) 25%, transparent), transparent 48%), linear-gradient(135deg, var(--surface-soft), var(--surface));
+}
+.placeholder-orbit { border-color: color-mix(in srgb, var(--pink-deep) 62%, transparent); color: var(--pink-deep); }
+.placeholder-orbit::before, .placeholder-orbit::after { color: var(--yellow); }
+.project-placeholder p { color: var(--muted); }
+.laptop-screen { border-color: var(--pink-deep); }
+.screen-code { color: #e9eef3; }
+.code-pink { color: #a8c4df; }
+.code-yellow { color: #ddbd7b; }
+.code-green { color: #9ec4b0; }
+.code-blue { color: #9ebce0; }
+.screen-sticker { color: #b6cee3; }
+.art-halo { background: radial-gradient(circle, color-mix(in srgb, var(--pink-deep) 34%, transparent), color-mix(in srgb, var(--yellow) 13%, transparent) 60%, transparent 73%); }
+.orbit, .orbit-b { border-color: color-mix(in srgb, var(--pink-deep) 30%, transparent); }
+.float-star, .float-flower, .photo-sparkle, .photo-flower { color: var(--yellow); }
+.float-flower, .photo-flower, .art-flower-pot, .contact-doodle { display: none; }
+.art-cube span { background: #7898b633; border-color: #91aec477; }
+.art-cube span:nth-child(2) { background: #d2b77a55; }
+.art-cube span:nth-child(3) { background: #8ca8c855; }
+.art-sphere { background: radial-gradient(circle at 30% 25%, #eef3f7, #7896b6 55%, #405d7b); }
+.coffee-cup { background: var(--yellow); color: #263443; }
+.coffee-cup::after { border-color: var(--yellow); }
+.art-note { color: var(--ink); border-radius: 4px 10px 4px 10px; }
+.photo-frame { border-radius: 120px 120px 8px 8px; }
+.photo-caption { background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 4px 10px 4px 10px; }
+.photo-caption span { display: none; }
+.certificate-art { background: var(--surface); }
+.certificate-art::before { border-color: var(--line); }
+.cert-seal { color: var(--yellow); }
+.education-badge { background: var(--surface-soft); color: var(--pink-deep); border: 1px solid var(--line); border-radius: 8px; }
+.contact-section { background: var(--surface-soft); color: var(--ink); }
+.contact-copy .eyebrow, .contact-copy .heading-serif { color: var(--pink-deep); }
+.contact-copy > p:not(.eyebrow), .contact-links, .muted-link { color: var(--muted); }
+.contact-links a { border-color: var(--line); }
+.contact-form { background: var(--surface); border-color: var(--line); }
+.contact-form input, .contact-form textarea { color: var(--ink); border-color: var(--line); }
+.contact-form input::placeholder, .contact-form textarea::placeholder { color: var(--muted); }
+.form-status { color: var(--muted); }
+.timeline-dot { background: var(--bg); }
+.site-footer { background: var(--bg); }
+
+@media (max-width: 760px) {
+  .intro-band { margin-block: 5px 18px; }
+}
