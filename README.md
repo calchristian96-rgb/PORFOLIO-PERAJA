@@ -36,7 +36,7 @@ Add records to the `seminars` and `achievements` arrays in `src/data.js`. Use on
 
 ### Replace your profile photo
 
-Replace `assets/profile.jpg` with the new photo, or change `personal.photo` to a different path under `assets/`. The original assets remain in the project.
+Replace `assets/profile.jpg` with the new photo. If using another image under `assets/`, point `personal.photo` to its site URL (for example, `assets/profile-2.jpg` is served as `/profile-2.jpg` because Vite publishes the contents of `assets/` at the site root). The original assets remain in the project.
 
 ## Contact form
 

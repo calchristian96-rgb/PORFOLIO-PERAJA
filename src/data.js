@@ -8,7 +8,7 @@ export const personal = {
   tagline: 'Turning ideas into meaningful digital experiences through creativity, technology, and continuous learning.',
   email: 'calchristian96@gmail.com',
   github: 'https://github.com/calchristian96-rgb',
-  photo: '/assets/profile.jpg',
+  photo: '/profile.jpg',
   school: 'Infotech Development System Colleges Inc.',
   degree: 'Bachelor of Science in Information Technology',
   year: '4th Year College Student'
