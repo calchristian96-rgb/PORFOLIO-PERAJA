@@ -28,7 +28,8 @@ export const projects = [
 ];
 
 export const certificates = [
-  { title: 'Serverless Architecture for Enhanced Public Service Delivery: Use Cases for Government Agency', issuer: 'Department of Information and Communications Technology (DICT), Region V – Camarines Norte', date: 'September 30, 2025', platform: 'Zoom', image: '/Screenshot%202026-11-10%20161605.png' }
+  { title: 'Serverless Architecture for Enhanced Public Service Delivery: Use Cases for Government Agency', issuer: 'Department of Information and Communications Technology (DICT), Region V – Camarines Norte', date: 'September 30, 2025', platform: 'Zoom', image: '/Screenshot%202026-11-10%20161605.png' },
+  { title: 'Getting Started with Cisco Packet Tracer', issuer: 'Cisco Networking Academy', date: 'January 30, 2026', platform: '', image: '/Screenshot%202026-11-10%20164559.png' }
 ];
 
 export const seminars = [
