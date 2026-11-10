@@ -99,21 +99,21 @@ export const certificates = [
     issuer: 'Department of Information and Communications Technology (DICT), Region V – Camarines Norte',
     date: 'September 30, 2025',
     platform: 'Zoom',
-    image: '/assets/Screenshot%202026-11-10%20161605.png'
+    image: '/Screenshot%202026-11-10%20161605.png'
   },
   {
     title: 'Getting Started with Cisco Packet Tracer',
     issuer: 'Cisco Networking Academy',
     date: 'January 30, 2026',
     platform: '',
-    image: '/assets/Screenshot%202026-11-10%20164559.png'
+    image: '/Screenshot%202026-11-10%20164559.png'
   },
   {
     title: 'DEVCON Legazpi x Sui Code Camp 2026',
     issuer: 'DEVCON Legazpi × Sui',
     date: 'July 30, 2026',
     platform: '',
-    image: '/assets/download%20%281%29.jpg'
+    image: '/download%20%281%29.jpg'
   }
 ];
 
@@ -123,14 +123,14 @@ export const seminars = [
     organizer: 'Department of Information and Communications Technology (DICT), Region V – Camarines Norte',
     date: 'September 30, 2025',
     description: 'Attendance recorded on the supplied DICT certificate.',
-    image: '/assets/Screenshot%202026-11-10%20161605.png'
+    image: '/Screenshot%202026-11-10%20161605.png'
   },
   {
     title: 'DEVCON Legazpi x Sui Code Camp 2026',
     organizer: 'DEVCON Legazpi × Sui',
     date: 'July 30, 2026',
     description: 'Certificate confirms completion of the Code Camp program.',
-    image: '/assets/download%20%281%29.jpg'
+    image: '/download%20%281%29.jpg'
   }
 ];
 
